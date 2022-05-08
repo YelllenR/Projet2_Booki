@@ -3,7 +3,7 @@
 @import url(btn-icons-cards-anim.css);
 
 
-@media all and (min-width:300px) and (max-width: 768px) {
+@media all and (min-width:300px) and (max-width: 767px) and (orientation: portrait){
     body{
         margin: 0;
         padding: 0;
@@ -13,8 +13,8 @@
     }
 
     /*Fonts*/
-    p, .hebergements-nav, .activite-nav, .eco, .fam, .romantic, .pet, .rechercher, .marseille, .afficher, .titre-footer, #footer-links, 
-    .filtre-h3{ 
+    p, .hebergements-nav, .activite-nav, .eco, .fam, .romantic, .pet, .rechercher, 
+    .marseille, .afficher, .titre-footer, #footer-links, .filtre-h3{ 
         font-size: var(--font-XS-normal);
     }
     
@@ -49,9 +49,9 @@
 
     .logo{
         padding:0;
-        margin: 24px 45% 24px 45%;
-        width: 15%;
-        height: 10%;
+        margin: 24px 45% 24px 40%;
+        height:  60px;
+        width:  100px;
     }
 
     .nav-bar{
@@ -119,7 +119,6 @@
         height: 45px;
         width: 45px;
         border-radius: 10px;
-        z-index: 2;
         position: relative;
         left: -5%;
     }
@@ -154,14 +153,27 @@
     .bill, .heart, .pet-dog, .family{
         margin: var(--margin-btn-filtre-xs);
         border: var(--box-xs);
+        height: 40px;
     }
 
     .wave, .icon-heart, .dog, .person{
         position: relative;
+        top: -2px;
         left: -2%;
         margin: 0;
         height: 45px;
         width: 45px;
+    }
+
+    .bill:active, .heart:active, .pet-dog:active, .family:active{
+        border-color: var(--blue);
+        color: var(--background-color-cards);
+        box-shadow: 0 4px 8px 0 var(--light-blue), 15px 6px 20px 0 var(--light-blue);
+    }
+    
+    .wave:active, .icon-heart:active, .dog:active, .person:active{
+        color: var(--background-color-cards);
+        background-color: var(--blue);
     }
 
     /*partie info*/
@@ -203,12 +215,13 @@
     .star-populaires{
         justify-content: space-between;
         align-items: center;
-        width: 95%;
+        width: 100%;
         flex-basis: 55%;
         padding-bottom: 32px;
         padding-top: 16px;
         margin: 0;
     }
+
 
     h2{
         margin: 0;
@@ -223,13 +236,17 @@
     }
 
     .star-p{
-        padding: 16px;
+        padding-top: clamp(8px, 2vw, 16px);
     }
 
     .nom-hotel-populaires{
-        padding-bottom: 8px;
+        padding-bottom: clamp(2px, 2vw, 8px);
     }
 
+    .p-prix-populaires{
+        padding-top: clamp(2px, 2vw, 8px);
+        padding-bottom: clamp(2px, 2vw, 5px);
+    }
 
     /*section hébergements*/
     .hebergements-cards{
@@ -256,16 +273,19 @@
         align-items: center;
         height: auto;
         width: 100%;
-        
     }
 
     .cards-hebergements-marseille{
         height: 230px;
         width: 95%;
-        /* width: 95.65%; */
         margin: 0;
         margin-bottom: 16px;
         padding: 1%;
+    }
+
+    .img-hebergements{
+        -o-object-position: center;
+           object-position: center;
     }
 
     .nom-hotel{
@@ -288,8 +308,11 @@
     }
  
     .activites-links{
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
     }
+
     #titre-activites{
         align-self: flex-start;
         padding-bottom: 32px;
@@ -298,6 +321,7 @@
     .activites-links{
         width: auto;
     }
+
     .box-total-cards-activites{
         flex-direction: column;
         justify-content: space-between;
@@ -352,16 +376,18 @@
     }
 
     /*Image activités*/
-    .img-activites-port, .img-activites-parc, .img-activites-group-bottom-2{
+  .img-activites-port, .img-activites-parc, .img-activites-group-bottom-2{
         width: var(--width-img-activites);
         height: 75%;
-        -o-object-position: 0 10%;
-           object-position: 0 10%;
+        -o-object-position: center;
+           object-position: center;
     }
 
-     .img-activites-group-bottom, .img-activites-group-2-T, .img-activites-group-2-B{
+    .img-activites-group-bottom, .img-activites-group-2-T, .img-activites-group-2-B{
         width: var(--width-img-activites);
         height: 75%;
+        -o-object-position: center;
+           object-position: center;
     }
 
     .lieu-activite{
