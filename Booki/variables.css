@@ -1,0 +1,72 @@
+/*Déclaration de toutes les variables*/
+
+
+:root{
+    /*Utilisées dans le style.css*/
+    --blue: #0065FC;
+    --grey: #F2F2F2;    
+    --font-desktop-normal: clamp(16px, 2vw, 18px);
+    --font-desktop-title: clamp(20px, 2vw, 22px);
+    --font-desktop-titres: clamp(18px, 2vw, 20px);
+    --font-desktop-titres-cards: clamp(14px, 1.5vw, 16px);
+    --font-desktop-normal-cards: clamp(14px, 1.5vw, 16px);
+    --font-fam: 'Raleway', sans-serif;
+    --text-color: black;
+    --padding-top-liens: 32px; /*pour les 4 côtés*/
+    --breakpoints-desktop:  1200px;
+    --light-blue: #DEEBFF;
+    --padding-header: 0 32px 0 32px;
+    --background-color-cards: white;
+    --margin-main: 0 32px 0 32px;
+    
+    /*Utilisées dans le btn-icons-cards-anim.css*/
+    --box:2px solid #F2F2F2;  
+    --box-xs: 2px solid #D9D9D9;
+    --box-radius-icons:100%;
+    --radius-btn: 30px;
+    --circle-h-icons: 44px;
+    --circle-w-icons: 44px;
+    --margin-btn-filtre: 24px 24px 24px 0;
+    --geolocaliser-btn-height: 50px;
+    --padding-main: 0 40px 0 40px;
+    --radius-card-container: 15px;
+
+     /*Partie hébergement et populaires*/   
+  
+    --shadow-cards: 0 4px 5px 0 #D9D9D9, 0 6px 20px 0 #D9D9D9;
+    --img-height-hebergements: 60%; 
+    --img-width-hebergements: 100%;
+
+    --star-blue: #0065FC;
+    --star-grey: #F2F2F2; 
+    --radius-img-hebergements: 15px 15px 0 0;
+
+    /*Partie activités*/
+    --height-cards-activites: 100%;
+    --width-cards-activites: 100%;
+
+    --width-img-activites: 100%; 
+    --radius-img-activites: 15px 15px 0 0;
+
+ }
+
+/*Variables dans le média-queries*/
+ :root{
+    --font-XS-normal: clamp(16px, 2vw, 18px);
+    --font-XS-title: clamp(18px, 2.5vw, 22px);
+    --font-XS-cartes: clamp(16px, 1.5vw, 18px);
+    --font-XS-normal-cartes: clamp(14px, 1.3vw, 16px);
+
+    --margin-btn-filtre-xs: 8px 12px 8px 0; 
+    --margin-general-xs: 5% 3% 1% 5%;
+    --width-general-xs: 90%; 
+
+    --height-xs-cards-hebergements: 170px;
+    --width-xs-cards-hebergements: 85%;
+
+    --padding-txt-hors-cards: 5% 0 5% 7%;
+    --height-cards-activites-xs: 190px;
+    --width-cards-xs: 95%; 
+}
+
+

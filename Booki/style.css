@@ -1,0 +1,199 @@
+@import url(variables.css);
+@import url(btn-icons-cards-anim.css);
+
+
+body, html, footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+p, .hebergements-nav, .activite-nav, .eco, .fam, .romantic, .pet, .rechercher, .marseille, .afficher, #footer-links, 
+.filtre-h3, a{ 
+    font-family: var(--font-fam);
+    font-size: var(--font-desktop-normal);
+    color: var(--text-color);
+}
+
+h1 {
+    font-family: var(--font-fam);
+    color: var(--text-color);
+    font-size: var(--font-desktop-title);
+}
+
+#titre-hebergements, .titre-footer, h2, #titre-activites, .star-populaires{
+    font-weight: 600;
+    font-size: var(--font-desktop-titres);
+    font-family: var(--font-fam);
+}
+
+
+.nom-hotel-populaires, .nom-hotel, .lieu-activite, .lieu-activite1 
+{
+    font-family: var(--font-fam);
+    font-size: var(--font-desktop-titres-cards);
+    color: var(--text-color);
+}
+
+.p-prix-populaires, .p-prix{
+    font-family: var(--font-fam);
+    font-size: var(--font-desktop-normal-cards);
+    color: var(--text-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*Mise en forme du header*/
+.wrapper{ /*Cette classe est utilisée pour toutes les sections de ma page*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    width: var(--breakpoints-desktop);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 20%;
+    width: 10%;
+    margin-top: 24px;
+    margin-left: 48px;
+}
+
+.nav-bar{
+    display: flex;
+    margin: 0 32px 0 0;
+}
+
+.hebergements-nav{
+    text-decoration: none;
+    padding:var(--padding-top-liens); 
+    border-top: 2px solid blue;
+    color: var(--blue);
+    font-weight: 590;
+}
+
+.activite-nav{
+    align-items: flex-end;
+    --padding-top-liens: 34px 0 32px 32px; /*Déclaration d'une variable locale pour cette classe 
+    et ai fait un overide de l'existant, car pas la peine de créer une nouvelle variable. 
+    Elle est utilisée seulement ici*/
+    padding: var(--padding-top-liens);
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 590;
+}
+
+
+/*Mise en forme de la section rechercher*/
+.section-container{ /*ce container principal reprend tout le main*/
+    display: flex;
+    flex-direction: column;
+    width: var(--breakpoints-desktop); 
+    margin: 0;
+}
+
+.contain-search{
+    display: flex;
+    flex-direction: column;
+    margin: var(--margin-main);
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+p{
+    padding-top: 8px;
+    padding-bottom: 12px;
+    margin: 0;
+}
+
+.search{ /*Les mises en forme des boutons se font dans le fichier btn-icons-cards-anim*/
+    display: flex;
+}
+
+.rechercher { 
+    color: white;
+}
+
+
+/*Section filtre*/
+.container-filtre{
+    display: flex;
+    margin: var(--margin-main);
+    padding-top: 8px;
+}
+
+.filtre-h3{
+    justify-self: center;
+    align-self: center;
+    flex-basis: 7%;
+}
+
+
+/*Section cards hébergements, les mises en forme sont faits dans le fichier btn-icons-cards-anim*/
+
+
+/*Footer*/
+.wrapper-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    background-color: var(--grey);
+}
+
+#footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: var(--breakpoints-desktop);
+    background-color: var(--grey);
+    margin: 32px 0 0 0;
+    height: 200px;
+}
+
+.a-propos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px 24px 24px 32px;
+}
+
+.nos-hebergement{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px 24px 24px 32px;
+    
+}
+
+.assistance{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px 24px 24px 32px;
+}
+
+.titre-footer{
+    margin: 0 0 24px 0;
+    font-weight: 600;
+}
+
+
+
