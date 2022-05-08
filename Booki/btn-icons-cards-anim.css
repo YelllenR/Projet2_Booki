@@ -18,42 +18,49 @@
     font-size: 0; /*Pour ne pas afficher le value*/
 }
 
+.btn-geoloc:hover{
+    background-color: var(--light-blue);
+}
+
 .marseille{
     border: 1px solid var(--grey);
     height: 45px;
     width: 230px;
-    padding-left: 0.5%;
+    padding-left: 15px;
     background-color: transparent;
 }
 
 .marseille::-webkit-input-placeholder{
     font-weight: 600;
     color: var(--text-color);
-    padding: 5%;
+    padding-left: 5px;
 }
 
 .marseille::-moz-placeholder{
     font-weight: 600;
     color: var(--text-color);
-    padding: 5%;
+    padding-left: 5px;
 }
 
 
 .marseille::-ms-input-placeholder{
     font-weight: 600;
     color: var(--text-color);
-    padding: 5%;
+    padding-left: 5px;
 }
 
 .marseille::placeholder{
     font-weight: 600;
-    padding: 5%;
+    padding-left: 5px;
     color: var(--text-color);
 }
 
 .marseille:focus{
     outline: none;
+    color: var(--blue);
+    font-weight: bold;
 }
+
 
 .rechercher {
     font-size: 8px;
@@ -99,11 +106,14 @@
 
 
 .bill, .heart, .pet-dog, .family{
-    margin: var(--margin-btn-filtre);
+    margin-bottom: 24px;
+    margin-top: clamp(1px, 2vw, 24px);
+    margin-right: clamp(12px, 2vw, 24px);
     display: flex;
     border:var(--box-xs);
     border-radius: var(--radius-btn);
     border-left-style: unset;
+    height: 44px;
 }
 
 /*Mise en forme des icons dans les filtres*/
@@ -117,6 +127,9 @@
     width: var(--circle-w-icons);
     border-radius: var(--box-radius-icons);
     cursor: pointer;
+    position: relative;
+    left: -5px;
+    top: -2px;
 }
 
 /*Animation filtres*/
@@ -155,6 +168,7 @@
 
 p.info{
 margin: 0;
+padding: 0;
 }
 
 /*Etoile*/
@@ -176,7 +190,8 @@ margin: 0;
     justify-content: space-between;
     align-items: center;
     margin: 32px 32px 48px 32px;
-    height: 520px;
+    height: auto;
+    width: auto;
 }
 
 
@@ -184,8 +199,10 @@ margin: 0;
 #titre-hebergements{
     align-self: flex-start;
     margin: 0;
+    padding-top: 16px;
     text-decoration: none;
     color: var(--text-color);
+    width: auto;
 }
 
 .afficher{
@@ -207,9 +224,9 @@ margin: 0;
     border-radius: var(--radius-card-container);
     text-decoration: none;
     padding: 24px 0 24px 24px;
-    margin-right: clamp(24px, 2vw, 32px);
+    margin-right: 2%;
     min-width: 0; /*Pour que le box rétrécisse à la même vitesse que le box populaires*/
-    height: 100%;
+    height: 600px;
 }
 
 
@@ -254,6 +271,7 @@ margin: 0;
     min-height: 0;
     -o-object-fit: cover;
        object-fit: cover;
+    object-position: center;
     border-radius: var(--radius-img-hebergements);
 }
 
@@ -283,7 +301,7 @@ margin: 0;
     border-radius: var(--radius-card-container);
     padding: 24px;
     min-width: 0; /*Pour que le box rétrécisse à la même vitesse que le box hébergements*/
-    height: 100%;
+    height: 600px;
 }
 
 .container-textes-populaires{
@@ -307,6 +325,7 @@ margin: 0;
     padding-left: 16px;
     padding-top: clamp(1px, .3vw, 8px);
     font-size: var(--font-desktop-normal-cartes);
+    padding-bottom: clamp(1px, .3vw, 8px);
 }
 
 .star-populaires{
@@ -316,6 +335,7 @@ margin: 0;
     text-decoration: none;
     color: var(--text-color);
     padding-bottom: 24px;
+    padding-top: 16px;
     width: 100%;
 }
 
@@ -326,7 +346,6 @@ margin: 0;
     height: 40px;
     padding-bottom: clamp(2px, 2vw, 12px);
     padding-left: 16px;
-    /* padding-top: clamp(16px, 5%, 8%); */
     font-size: var(--font-desktop-normal-cartes);
 }
 
@@ -412,7 +431,8 @@ h2{
 .img-activites-port{ 
     -o-object-fit: cover; 
        object-fit: cover;
-    object-position: 50% 0;
+    -o-object-position: 50% 0;
+       object-position: 50% 0;
     height: 88%;
     width: var(--width-img-activites);
     border-radius: var(--radius-img-activites);
@@ -439,8 +459,8 @@ h2{
     align-items: center;
     width: var(--width-cards-activites);
     background-color: var(--background-color-cards);
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .cards-activites-group-top{
@@ -486,7 +506,7 @@ h2{
     align-items: center;
     width: var(--width-cards-activites);
     background-color: var(--background-color-cards);
-    padding-left: 32px;
+    padding-left: 3%;
 }
 
 .cards-activites-group-2-top{

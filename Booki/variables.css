@@ -24,15 +24,13 @@
     --box-xs: 2px solid #D9D9D9;
     --box-radius-icons:100%;
     --radius-btn: 30px;
-    --circle-h-icons: 44px;
-    --circle-w-icons: 44px;
-    --margin-btn-filtre: 24px 24px 24px 0;
+    --circle-h-icons: 48px;
+    --circle-w-icons: 48px;
     --geolocaliser-btn-height: 50px;
     --padding-main: 0 40px 0 40px;
     --radius-card-container: 15px;
 
      /*Partie hébergement et populaires*/   
-  
     --shadow-cards: 0 4px 5px 0 #D9D9D9, 0 6px 20px 0 #D9D9D9;
     --img-height-hebergements: 60%; 
     --img-width-hebergements: 100%;
