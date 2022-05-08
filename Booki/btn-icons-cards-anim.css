@@ -368,10 +368,10 @@ h2{
     align-items: center;
     margin: var(--margin-main); /*margin droite et gauche*/
     margin-bottom: 48px;
+    width: auto;
 }
 
 #titre-activites{
-
     align-self: flex-start;
 }
 
