@@ -125,7 +125,7 @@
 
     .loupe{
         all: unset;
-        height: 1.5vh;
+        height: clamp(0.5vh, 50%, 1.5vh);
     }
 
 
@@ -190,8 +190,8 @@
     }
 
     .icon-info{
-        width: clamp (20px, 1vw, 25px);
-        height: clamp (15px, 1vh, 20px);
+        width: clamp(20px, 1vw, 25px);
+        height: clamp(15px, 1vh, 20px);
     }
 
     /*section populaires*/
