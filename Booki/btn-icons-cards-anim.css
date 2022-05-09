@@ -4,9 +4,12 @@
 /*Dossier boutons / icons / animations*/
 
     
-/*Mise en forme bouton dans la section rechercher par ville*/
+/*Mise en forme du bouton dans la section rechercher par ville*/
+
 .btn-geoloc{
-    background-image: url(/Image/icons/location.svg);
+    /*impossible de mettre l'icon, donc j'ai utilisé une image en SVG 
+    afin de ne pas alterer la qualité lors du redimensionnement*/
+    background-image: url(/Image/icons/location.svg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: 10px;
