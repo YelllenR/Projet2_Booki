@@ -67,8 +67,8 @@ a{
 }
 
 .logo{
-    height: 50px;
-    width: 100px;
+    height: 48px;
+    width: 96px;
     margin-top: 24px;
     margin-left: 48px;
 }
@@ -115,7 +115,7 @@ a{
 
 h1 {
     margin-bottom: 0;
-    margin-top: 2%;
+    margin-top: 24px;
 }
 
 p{
@@ -146,7 +146,7 @@ p{
     justify-self: center;
     align-self: center;
     flex-basis: 7%;
-    margin-right: clamp(8px, 1vw, 12px);
+    margin-right: clamp(8px, 1vw, 16px);
     margin-bottom: clamp(8px, 1vw, 16px);
 }
 
@@ -169,7 +169,7 @@ p{
     width: var(--breakpoints-desktop);
     background-color: var(--grey);
     margin: 32px 0 0 0;
-    height: 300px;
+    height: 304px;
 }
 
 .a-propos{

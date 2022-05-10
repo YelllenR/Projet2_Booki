@@ -12,11 +12,11 @@
     background-image: url(/Image/icons/location.svg); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 10px;
+    background-size: 16px;
     border: var(--box);
     height: var(--geolocaliser-btn-height);
-    width: 51px;
-    border-radius: 15px 0 0 15px;
+    width: 48px;
+    border-radius: 16px 0 0 16px;
     cursor: pointer;
     font-size: 0; /*Pour ne pas afficher le value*/
 }
@@ -27,34 +27,34 @@
 
 .marseille{
     border: 1px solid var(--grey);
-    height: 45px;
-    width: 230px;
-    padding-left: 15px;
+    height: 48px;
+    width: 232px;
+    padding-left: 16px;
     background-color: transparent;
 }
 
 .marseille::-webkit-input-placeholder{
     font-weight: 600;
     color: var(--text-color);
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
 .marseille::-moz-placeholder{
     font-weight: 600;
     color: var(--text-color);
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
 
 .marseille::-ms-input-placeholder{
     font-weight: 600;
     color: var(--text-color);
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
 .marseille::placeholder{
     font-weight: 600;
-    padding-left: 5px;
+    padding-left: 8px;
     color: var(--text-color);
 }
 
@@ -72,8 +72,8 @@
     align-items: center;
     border: 1px solid var(--blue);
     background-color: var(--blue);
-    border-radius: 0 15px 15px 0;
-    width: 130px;
+    border-radius: 0 16px 16px 0;
+    width: 136px;
     height: var(--geolocaliser-btn-height);
     cursor: pointer;
     padding-top: 8px;
@@ -98,11 +98,11 @@
 .eco, .fam, .romantic, .pet {
     font-weight: bold;
     align-self: center;
-    border-radius: 20px;
+    border-radius: 24px;
     cursor: pointer;
     background-color: var(--background-color-cards);
     border-style: none;
-    margin-right: 10px;
+    margin-right: 8px;
     transition-duration: 500ms;
     transition-timing-function: linear;
 }
@@ -111,12 +111,12 @@
 .bill, .heart, .pet-dog, .family{
     margin-bottom: 24px;
     margin-top: clamp(1px, 2vw, 24px);
-    margin-right: clamp(12px, 2vw, 24px);
+    margin-right: clamp(16px, 2vw, 24px);
     display: flex;
     border:var(--box-xs);
     border-radius: var(--radius-btn);
     border-left-style: unset;
-    height: 44px;
+    height: 48px;
 }
 
 /*Mise en forme des icons dans les filtres*/
@@ -131,8 +131,7 @@
     border-radius: var(--box-radius-icons);
     cursor: pointer;
     position: relative;
-    left: -5px;
-    top: -2px;
+    left: -8px;
 }
 
 /*Animation filtres*/
@@ -140,7 +139,7 @@
 .bill:hover, .heart:hover, .pet-dog:hover, .family:hover{
     border-color: var(--blue);
     color: var(--background-color-cards);
-    box-shadow: 0 4px 8px 0 var(--light-blue), 15px 6px 20px 0 var(--light-blue);
+    box-shadow: 0 8px 8px 0 var(--light-blue), 16px 8px 24px 0 var(--light-blue);
 }
 
 .wave:hover, .icon-heart:hover, .dog:hover, .person:hover{
@@ -154,15 +153,15 @@
     justify-content: flex-start;
     align-items: center;
     padding-bottom: 24px;
-    margin: 12px 32px 0 32px;
+    margin: 16px 32px 0 32px;
 }
 
 .icon-info{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border: 1.5px solid #D9D9D9;
     border-radius: var(--box-radius-icons);
     color:var(--blue);
@@ -213,7 +212,7 @@ padding: 0;
     text-decoration: none;
     color: var(--text-color);
     font-weight: bold;
-    height: 30px;
+    height: 32px;
     padding-top: 8px;
 }
 
@@ -223,11 +222,11 @@ padding: 0;
     justify-content: space-between;
     align-items: center;
     background-color: var(--grey);
-    flex-basis: 730px;
+    flex-basis: 728px;
     border-radius: var(--radius-card-container);
     text-decoration: none;
     padding: 24px 0 24px 24px;
-    margin-right: 2%;
+    margin-right: 24px;
     min-width: 0; /*Pour que le box rétrécisse à la même vitesse que le box populaires*/
     height: 600px;
 }
@@ -241,7 +240,7 @@ padding: 0;
     height: 200px;
     padding-top: 24px;
     min-height: 0;
-    padding-bottom: clamp(12px, 2vw, 24px);
+    padding-bottom: clamp(16px, 2vw, 24px);
 }
 
 .group-cards-2{
@@ -251,14 +250,14 @@ padding: 0;
     height: 200px;
     width: 100%;
     min-height: 0;
-    padding-bottom: clamp(12px, 2vw, 24px);
+    padding-bottom: clamp(16px, 2vw, 24px);
 }
 
 .cards-hebergements-marseille{
     display: flex;
     flex-direction: column;
-    padding: 3px;
-    border-radius: 15px;
+    padding: 8px;
+    border-radius: 16px;
     background-color: var(--background-color-cards);
     height: 95%;
     width: 100%; 
@@ -281,14 +280,14 @@ padding: 0;
 
 .p-prix, .star{
     margin: 0;
-    padding: 0 0 5px 10px;
+    padding: 0 0 8px 8px;
     font-size: var(--font-desktop-normal-cartes);
 }
 
 .nom-hotel{
-    margin-top: 5px;
+    margin-top: 8px;
     margin-bottom: 0;
-    padding: 0 0 5px 10px;
+    padding: 0 0 8px 8px;
     font-size: var(--font-desktop-cartes);
 }
 
@@ -300,7 +299,7 @@ padding: 0;
     justify-content: space-between;
     align-items: center;
     background-color: var(--grey);
-    flex-basis: 350px;
+    flex-basis: 352px;
     border-radius: var(--radius-card-container);
     padding: 24px;
     min-width: 0; /*Pour que le box rétrécisse à la même vitesse que le box hébergements*/
@@ -316,7 +315,7 @@ padding: 0;
 
 .nom-hotel-populaires{
     margin: 0;
-    padding-top: clamp(5px, 2vw, 8px);
+    padding-top: clamp(8px, 2vw, 16px);
     padding-right: 24px;
     padding-left: 16px;
     
@@ -347,7 +346,7 @@ padding: 0;
     justify-content: flex-start;
     align-items: flex-end;
     height: 40px;
-    padding-bottom: clamp(2px, 2vw, 12px);
+    padding-bottom: clamp(0px, 2vw, 16px);
     padding-left: 16px;
     font-size: var(--font-desktop-normal-cartes);
 }
@@ -362,13 +361,13 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 131px;
+    height: 132px;
     width: 100%;
     background-color: var(--background-color-cards);
     border-radius: var(--radius-card-container);
     box-shadow: var(--shadow-cards);
     text-decoration: none;
-    padding: 3px;
+    padding: 8px;
     margin-bottom: 24px;
 }
 
@@ -378,7 +377,7 @@ h2{
     width: 40%;
     -o-object-fit:cover;
        object-fit:cover;
-    border-radius: 15px 0 0 15px;
+    border-radius: 16px 0 0 16px;
 }
 
 
@@ -411,7 +410,7 @@ h2{
 
 .lieu-activite1{
     margin: 0;
-    padding: 12px 0 12px 12px;
+    padding: 16px 0 16px 16px;
 }
 
 .activites-links{
@@ -462,8 +461,8 @@ h2{
     align-items: center;
     width: var(--width-cards-activites);
     background-color: var(--background-color-cards);
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .cards-activites-group-top{

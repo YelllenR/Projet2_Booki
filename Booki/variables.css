@@ -23,7 +23,7 @@
     --box:2px solid #F2F2F2;  
     --box-xs: 2px solid #D9D9D9;
     --box-radius-icons:100%;
-    --radius-btn: 30px;
+    --radius-btn: 32px;
     --circle-h-icons: 48px;
     --circle-w-icons: 48px;
     --geolocaliser-btn-height: 50px;
@@ -37,14 +37,14 @@
 
     --star-blue: #0065FC;
     --star-grey: #F2F2F2; 
-    --radius-img-hebergements: 15px 15px 0 0;
+    --radius-img-hebergements: 16px 16px 0 0;
 
     /*Partie activités*/
     --height-cards-activites: 100%;
     --width-cards-activites: 100%;
 
     --width-img-activites: 100%; 
-    --radius-img-activites: 15px 15px 0 0;
+    --radius-img-activites: 16px 16px 0 0;
 
  }
 
@@ -55,15 +55,10 @@
     --font-XS-cartes: clamp(16px, 1.5vw, 18px);
     --font-XS-normal-cartes: clamp(14px, 1.3vw, 16px);
 
-    --margin-btn-filtre-xs: 8px 12px 8px 0; 
-    --margin-general-xs: 5% 3% 1% 5%;
+    --margin-btn-filtre-xs: 8px 16px 8px 0; 
+    --margin-general-xs: 24px 24px 8px 24px;
     --width-general-xs: 90%; 
 
-    --height-xs-cards-hebergements: 170px;
-    --width-xs-cards-hebergements: 85%;
-
-    --padding-txt-hors-cards: 5% 0 5% 7%;
-    --height-cards-activites-xs: 190px;
     --width-cards-xs: 95%; 
 }
 
