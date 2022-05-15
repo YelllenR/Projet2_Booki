@@ -9,7 +9,7 @@
 .btn-geoloc{
     /*impossible de mettre l'icon, donc j'ai utilisé une image en SVG 
     afin de ne pas alterer la qualité lors du redimensionnement*/
-    background-image: url(/Image/icons/location.svg); 
+    background-image: url(image/icons/location.svg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: 16px;
