@@ -8,7 +8,7 @@ Les spécifications techniques à respecter sont;
 - Les cartes sont cliquables (avec simulation la présence d'un lien)
 - Les filtres de recherchent changent au survole
 	
-**Projet validé** en Juin 2022 avec l'évalution suivante; 
+**Projet validé** en Mai 2022 avec l'évalution suivante; 
 
 Points forts : Très bon code
 	
