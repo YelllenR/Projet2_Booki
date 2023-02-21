@@ -14,3 +14,6 @@ Points forts : Très bon code
 	
 **Soutenance**
 **Remarques** : Bonne présentation, Aurélie a bien amélioré sa présentation par rapport à la première soutenance pour mieux respecter le temps et pour apporter + de détails techniques.
+
+
+Ecole: [Openclassrooms](https://openclassrooms.com/fr/paths/717-developpeur-web).
