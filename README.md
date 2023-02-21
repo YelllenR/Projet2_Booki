@@ -2,7 +2,7 @@
 
 Ce projet consiste à faire l'intégration du site en HTML et CSS. 
 Les spécifications techniques à respecter sont; 
--Les respects des breakpoints fournis avec pour emphase du Desktop first
+- Les respects des breakpoints fournis avec pour emphase du Desktop first
 -Utilisation du flexbox pour la mise en page
 -Avoir la barre de recherche visible et modifiable
 -Les cartes sont cliquables (avec simulation la présence d'un lien)
